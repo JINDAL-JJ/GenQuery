@@ -32,8 +32,8 @@ chrome.contextMenus.onClicked.addListener(function (clickData) {
         var createData = {
             url: wikiUrl,
             type: "popup",
-            top: 5,
-            left: 5,
+            top: 10,
+            left: 10,
             width: screen.availWidth / 2,
             height: screen.availHeight / 2,
         };
